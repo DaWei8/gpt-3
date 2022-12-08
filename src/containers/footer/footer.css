@@ -144,7 +144,7 @@ width: 60%;
 @media screen and (max-width: 580px) {
 
     .gpt3__footer {
-        padding-inline: 2rem;
+        padding-inline: 2rem;   
     }
     
 }

@@ -156,6 +156,7 @@
 @media screen and (max-width: 580px) {
 
     .gpt3__whatgpt3 {
+        width: 100vw;
         color: #FFFFFF;
         padding-inline: 2rem;
         margin-bottom: 90px;
