@@ -124,6 +124,8 @@ width: 60%;
     .gpt3__footer {
         width: 100vw;
         padding-inline: 4rem;
+        align-items: center;
+        justify-content: center;
     }
     .gpt3__footer_top h1 {
         font-size: 48px;

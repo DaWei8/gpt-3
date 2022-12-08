@@ -160,6 +160,8 @@
         color: #FFFFFF;
         padding-inline: 2rem;
         margin-bottom: 90px;
+        align-items: center;
+        justify-content: center;
     }
 
     .gpt3__whatgpt3_container {
