@@ -181,11 +181,17 @@
         margin-bottom: 20px;
     }
 
+    .gpt3__whatgpt3_second-section p {
+        width: max-content;
+        margin-bottom: 20px;
+    }
+
     .gpt3__whatgpt3_first-section div {
         margin-right: 20px;
     }
     .gpt3__whatgpt3_first-section p {
         width: fit-content;
+        font-size: 14px;
     }
 
     .what-card {
