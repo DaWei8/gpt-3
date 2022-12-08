@@ -125,9 +125,6 @@ a {
 }
 
 @media screen and (max-width: 580px) {
-    .App {
-        /* margin-inline: 2rem; */
-    }
     .blurred-circle {
         position: absolute;
         width: 300px;
