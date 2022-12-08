@@ -1,0 +1,150 @@
+.gpt3__footer {
+    padding-top: 175px;
+    padding-inline: 6rem;
+    background: var(--color-footer);
+}
+
+.gpt3__footer_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__footer_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gpt3__footer_top h1 {
+    background: var(--gradient-text);
+    background-clip: text;
+    color: transparent;
+
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+
+    margin-bottom: 120px;
+
+    max-width: 821px;
+}
+
+.gpt3__footer_top button {
+    width: max-content;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 1px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 21px;
+    background: transparent;
+    margin-bottom: 180px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+.gpt3__footer_links-section {
+    padding-inline: 6rem;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.gpt3__footer_company {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__footer_company img {
+    max-width: 120px;
+    margin-bottom: 25px;
+}
+
+.gpt3__footer_company p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 150px;
+}
+
+.gpt3__footer_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+width: 60%;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.gpt3__footer_link {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__footer_link h4 {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.gpt3__footer_link-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__footer_link-list p {
+    margin-bottom: 10px;
+}
+
+.gpt3__footer_bottom {
+    color: #fff;
+    margin-bottom: 25px;
+    align-self: center;
+}
+
+
+@media screen and (max-width: 1240px) {
+
+    .gpt3__footer {
+        padding-inline: 6rem;
+    }
+    .gpt3__footer_links-section {
+        padding: 0;
+        /* flex-direction: column; */
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .gpt3__footer {
+        padding-inline: 4rem;
+    }
+    .gpt3__footer_top h1 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .gpt3__footer_links-section {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .gpt3__footer_company {
+        margin-bottom: 20px;
+    }
+    .gpt3__footer_links {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .gpt3__footer {
+        padding-inline: 2rem;
+    }
+    
+}

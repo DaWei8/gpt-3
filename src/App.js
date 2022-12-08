@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div className='App'>
       <div className='gradient__bg'>
+        <div className='blurred-circle'></div>
         <Navbar />
         <Header />
       </div>
@@ -17,8 +18,7 @@ const App = () => {
       <Possibility />
       <CTA />
       <Blog />
-      <Footer />  
-      Goats
+      <Footer /> 
     </div>
   )
 }

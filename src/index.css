@@ -12,4 +12,9 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
   --color-blue: #081872;
+  --color-orange: #ff4820;
+}
+
+body {
+  max-width: 14440px;
 }

@@ -3,10 +3,16 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: var(--font-family);
+}
+
+img {
+    max-width: 550px;
 }
 
 body {
     background: var(--color-bg);
+    max-width: 14440px;
 }
 
 a {
@@ -14,22 +20,34 @@ a {
     text-decoration: none;
 }
 
-.gradient__bg{
+.blurred-circle {
+    position: absolute;
+    width: 1013px;
+    height: 1013px;
+    left: -336px;
+    top: -305px;
+
+    background: #002853;
+    filter: blur(282px);
+    z-index: -10;
+}
+
+.gradient {
 
     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 3% 25%, var(--color-blue) 0%, rgba(8, 1, 36, 1) 100%);
+    background: -moz-radial-gradient(circle at 3% 25%, var(--color-blue) 0%, rgba(8, 1, 36, 1) 100%);
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 3% 25%, var(--color-blue)  0%, rgba(8, 1, 36, 1) 100%);
+    background: -webkit-radial-gradient(circle at 3% 25%, var(--color-blue) 0%, rgba(8, 1, 36, 1) 100%);
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 3% 25%, var(--color-blue)  0%, rgba(8, 1, 36, 1) 100%);
+    background: -o-radial-gradient(circle at 3% 25%, var(--color-blue) 0%, rgba(8, 1, 36, 1) 100%);
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 3% 25%, var(--color-blue)  0%, rgba(8, 1, 36, 1) 100%);
+    background: -ms-radial-gradient(circle at 3% 25%, var(--color-blue) 0%, rgba(8, 1, 36, 1) 100%);
 
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 3% 25%, var(--color-blue)  0%, rgba(8, 1, 36, 1) 100%);
+    background: radial-gradient(circle at 3% 25%, var(--color-blue) 0%, rgba(8, 1, 36, 1) 100%);
 
 }
 
@@ -49,50 +67,82 @@ a {
 }
 
 .scale-up-center {
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @-webkit-keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
     }
+
     100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
-  }
-  @keyframes scale-up-center {
+}
+
+@keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
     }
+
     100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
-  }
+}
 
+
+@media screen and (max-width: 1050px) {
   
-  @media screen and (max-width: 700px) {
-    .section__padding {
-        padding: 4rem;
-    }
-    
-    .section__margin {
-        padding: 4rem;
-    }
-    
-  }
 
-  @media screen and (max-width: 550px) {
+}
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+        padding: 4rem;
+    }
+
+    .blurred-circle {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 0px;
+        right: 0px;
+    
+        background: #002853;
+        filter: blur(282px);
+        z-index: -10;
+
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .blurred-circle {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 0px;
+        right: 0px;
+
+        background: #002853;
+        filter: blur(282px);
+        z-index: -10;
+    }
+
     .section__padding {
         padding: 4rem 2rem;
     }
-    
+
     .section__margin {
         padding: 4rem 2rem;
     }
-    
-  }
+
+}

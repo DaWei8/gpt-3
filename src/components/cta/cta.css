@@ -1,0 +1,105 @@
+.gpt3__cta {
+    display: flex;
+    padding-inline: 6rem;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.gpt3__cta_container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: var(--gradient-text);
+    align-items: center;
+    padding: 45px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.gpt3__cta-text {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-bg);
+}
+
+.gpt3__cta-text p {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.gpt3__cta-text h3 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.gpt3__cta-button button {
+    border: none;
+    padding: 15px 40px;
+    background: var(--color-bg);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+@media screen and (max-width: 1240px) {
+
+    .gpt3__cta-button button {
+        align-self: flex-start;
+        width: max-content;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .gpt3__cta {
+        padding-inline: 2rem;
+    }
+    .gpt3__cta_container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 45px;
+    }
+
+    .gpt3__cta-text {
+        margin-bottom: 30px;
+    }
+    .gpt3__cta-button {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .gpt3__cta_container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: var(--gradient-text);
+        align-items: center;
+        padding: 45px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .gpt3_possibility-container {
+        padding-inline: 2rem;
+    }
+}
