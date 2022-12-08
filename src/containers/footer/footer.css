@@ -122,6 +122,7 @@ width: 60%;
 
 @media screen and (max-width: 700px) {
     .gpt3__footer {
+        width: 100vw;
         padding-inline: 4rem;
     }
     .gpt3__footer_top h1 {
@@ -143,6 +144,9 @@ width: 60%;
 
 @media screen and (max-width: 580px) {
 
+    .gpt3__footer_container {
+        width: 80vw;
+    }
     .gpt3__footer {
         padding-inline: 2rem;   
     }

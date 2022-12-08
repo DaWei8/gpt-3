@@ -12,9 +12,6 @@
     align-items: center;
 }
 
-.gpt3_possibility-container img {}
-
-
 .gpt3__possibility-request-top,
 .gpt3__possibility-heading,
 .gpt3__possibility-content {
@@ -98,6 +95,7 @@
 
 @media screen and (max-width: 580px) {
     .gpt3_possibility-container {
+        width: 80vw;
         padding-inline: 2rem;
     }
 }

@@ -64,9 +64,9 @@
 @media screen and (max-width: 700px) {
     .gpt3__cta {
         padding-inline: 2rem;
+        width: 100vw;
     }
     .gpt3__cta_container {
-        width: 100vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -85,7 +85,7 @@
 @media screen and (max-width: 580px) {
 
     .gpt3__cta_container {
-        width: 100vw;
+        width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -97,9 +97,5 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
-    }
-
-    .gpt3_possibility-container {
-        padding-inline: 2rem;
     }
 }
