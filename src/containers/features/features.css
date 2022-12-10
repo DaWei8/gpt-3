@@ -46,6 +46,7 @@
 .gpt3__features {
     color: #fff;
     padding-inline: 8rem;
+    margin-bottom: 100px;
 }
 
 .gpt3__features_container {
@@ -64,9 +65,9 @@
     background-clip: text;
     color: transparent;
     font-weight: 800;
-    font-size: 34px;
-    line-height: 45px;
-    width: 426px;
+    font-size: 48px;
+    line-height: 56px;
+    width: 50%;
     margin-bottom: 35px;
 }
 
@@ -81,6 +82,17 @@
 
 
 @media screen and (max-width: 1240px) {
+
+    .gpt3__features_head h3 {
+        background: var(--gradient-text);
+        background-clip: text;
+        color: transparent;
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 45px;
+        width: 426px;
+        margin-bottom: 35px;
+    }
     .feature-card {
         display: flex;
         width: fit-content;

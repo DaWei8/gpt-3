@@ -2,14 +2,15 @@
     display: flex;
     justify-content: center;
     margin-bottom: 150px;
+    padding-inline: 6rem;
 }
 
 .gpt3_possibility-container {
-    padding-inline: 6rem;
+    width: 80%;
     display: flex;
     flex-direction: row;
-    color: #fff;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .gpt3__possibility-request-top,
@@ -17,11 +18,14 @@
 .gpt3__possibility-content {
     margin-bottom: 10px;
 }
+.gpt3__possibility img {
+}
 
 .gpt3__possibility-text {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
+    align-self: flex-end;
 }
 .gpt3__possibility-request-top {
     font-weight: 500;
@@ -60,11 +64,11 @@
 
     .gpt3__possibility {
         margin-top: 60px;
+        padding-inline: 6rem;
     }
 
     .gpt3_possibility-container {
         flex-direction: column;
-        padding-inline: 6rem;
         width: fit-content;
     }
 
